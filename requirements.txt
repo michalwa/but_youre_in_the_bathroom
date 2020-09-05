@@ -1,0 +1,11 @@
+pydub
+# Requires ffmpeg or libav on PATH
+# - http://www.ffmpeg.org/
+# - http://libav.org/
+
+pysndfx
+# Requires SoX on PATH
+# http://sox.sourceforge.net/
+
+# Only required by pydub for playback
+simpleaudio
