@@ -17,7 +17,6 @@ def go_to_bathroom(audio: AudioSegment, background: Optional[AudioSegment] = Non
         .reverb(reverberance=100)
         .lowpass(600, q=.4)
         .lowpass(600, q=.4)
-        .lowpass(600, q=.4)
     )
 
     new_samples = fx(samples)
